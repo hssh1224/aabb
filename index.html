@@ -4,16 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juho Home</title>
-
+    <title>HTML5 문서 구조 시맨틱 태그 사용</title>
+    <style>
+        html, body{margin: 0; padding: 0; height: 100%;}
+        header{ width: 100%; height: 15%; background: yellow;}
+        nav{width: 15%; height: 70%; float:left; background: orange;}
+        section{width: 70%;height: 70%;float: left ;background: olivedrab;}
+        aside{width: 15%; height: 70%;float: left; background: orange;}
+        footer{width: 100%;height: 15%;clear: both;background: plum;}
+    </style>
 </head>
-<body>
-    <h1>수업내용</h1>
-    <hr>
 
+<body>
+    <header>
+    <table align="center">
+        <tr><td><td><a href="index.html"><img src="img/나만의 페이지 메뉴.png"></a></td></tr>
+
+    </table>
+
+    </header>
+    <nav><img src="img/강아지.jpg" width="150"></nav>
+    <section>
     <a href="9월6일3교시.html">9월6일3교시 실습</a> <br>
     <a href="9월6일3교시2.html">9월6일3교시 실습2-블럭태그/인라인태그</a><br>
-    <a href="9월13일.html">9월13일 홈페이지 설계</a>
+    <a href="9월13일.html">9월13일 홈페이지 설계</a><br>
+    <a href="table.html">9월 20일 테이블</a>
+    
+        </section>
+    <aside>aside</aside>
+    <footer>footer</footer>
     
 </body>
 </html>
