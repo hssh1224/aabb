@@ -1,0 +1,160 @@
+html{margin: 0; padding: 0; height: 100%;}
+    body {
+        background-color: whitesmoke;
+        
+        
+        
+        
+}
+
+button {
+    margin: 20px;
+}
+.w-btn {
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+
+.w-btn-outline {
+    position: relative;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+.w-btn-indigo {
+    background-color: aliceblue;
+    color: #1e6b7b;
+    
+}
+.w-btn-indigo-outline {
+    border: 3px solid aliceblue;
+    color: #1e6b7b;
+}
+
+.w-btn-indigo-outline:hover {
+    color: #1e6b7b;
+    background: aliceblue;
+}
+
+.w-btn-green {
+    background-color: #77af9c;
+    color: #d7fff1;
+}
+.w-btn-green-outline {
+    border: 3px solid #77af9c;
+    color: darkgray;
+}
+.w-btn-green-outline:hover {
+    background-color: #77af9c;
+    color: #d7fff1;
+}
+.w-btn-brown {
+    background-color: gray;
+    color: white;
+}
+
+.w-btn-yellow {
+        background-color: white;
+        color: #6e6e6e;
+    
+}
+
+.w-btn:hover {
+    letter-spacing: 2px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.w-btn-outline:hover {
+    letter-spacing: 2px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.w-btn:active {
+    transform: scale(1.5);
+}
+
+.w-btn-outline:active {
+    transform: scale(1.5);
+}
+
+.login-form{
+    /* border: 3px solid red; */
+    border-radius: 5px;
+    width: 300px;
+    background-color: #eeeff1;
+    padding:20px;
+    margin : 50px auto;
+}
+.text-field{
+    font-size: 14px;
+    padding : 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border : none;
+    width : 100%;
+    box-sizing: border-box;
+}
+
+
+
+.links {
+    text-align: center;
+    margin:30px;
+}
+
+.submit-btn {
+    
+    margin-top: 20px;
+    font-size : 14px;
+    color : black;
+    padding : 10px;
+    border-radius: 5px;
+    background-color: white;
+    border : none;
+    width : 100%;
+
+}
+.submit-btn1 {
+    
+    margin-top: 20px;
+    font-size : 14px;
+    color : white;
+    padding : 10px;
+    border-radius: 5px;
+    background-color: rgb(141, 143, 134);
+    border : none;
+    width : 100%;
+
+}
+.submit-btn:hover {
+    
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.submit-btn1:hover{
+    cursor: pointer;
+    background-color: rgb(224, 219, 219);
+    color: black;
+}
+.phone{
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    width: 100%;
+}

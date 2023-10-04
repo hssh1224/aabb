@@ -4,16 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juho Home</title>
-
+    <title>HTML5 문서 구조 시맨틱 태그 사용</title>
+    <style>
+        html, body{margin: 0; padding: 0; height: 100%;}
+        header{ width: 100%; height: 15%; background: yellow;}
+        nav{width: 15%; height: 70%; float:left; background: orange;}
+        section{width: 70%;height: 70%;float: left ;background: greenyellow;}
+        aside{width: 15%; height: 70%;float: left; background: orange;}
+        footer{width: 100%;height: 15%;clear: both;background: plum;}
+    </style>
 </head>
-<body>
-    <h1>수업내용</h1>
-    <hr>
 
+<body>
+    <header>
+    <table align="center">
+        <tr><td><td><a href="index.html"><img src="img/나만의 페이지 메뉴.png"></a></td></tr>
+
+    </table>
+
+    </header>
+    <nav><img src="img/강아지.jpg" width="150"> <a href="index.html">만들고있는<br> 메인사이트</a></nav>
+    
+    <section>
     <a href="9월6일3교시.html">9월6일3교시 실습</a> <br>
     <a href="9월6일3교시2.html">9월6일3교시 실습2-블럭태그/인라인태그</a><br>
-    <a href="9월13일.html">9월13일 홈페이지 설계</a>
+    <a href="9월13일.html">9월13일 홈페이지 설계</a><br>
+    <a href="table.html">9월 20일 테이블</a><br>
+    <a href="9월27일.html">9월 27일 </a><br>
+    <a href="10월04일.html">10월 04일 1교시</a><br>
+    <a href="10월04일2교시.html">10월 04일 2교시</a><br>
+    <a href="10월04일3교시.html">10월 04일 3교시</a><br>
+    
+    
+        </section>
+    <aside>
+        <div class="login-wrapper">
+            <h3><center>로그인</center></h3>
+            <form method="post" action="서버의url" id="login-form">
+                아이디 : <input type="text" name="userName" placeholder="Email">
+                <br>P/W : <input type="password" name="userPassword" placeholder="Password">
+                <label for="remember-check"><br>
+                <input type="checkbox" id="remember-check">아이디 저장하기<br>
+                </label>
+                <input type="submit" value="로그인"> <input type="submit" value="회원가입">
+            </form>
+        </div>
+    </aside>
+    <footer>footer</footer>
     
 </body>
 </html>
