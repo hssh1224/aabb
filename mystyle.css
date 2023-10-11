@@ -6,3 +6,11 @@ body{background-color: linen; color: blueviolet;
 h3{text-align: center; color: darkred;
 
 }
+section {
+    
+    margin-bottom: 10px;
+    padding: 20px 6vmin;
+    background-color: white;
+    border-bottom: 1px solid white;
+    box-shadow: 0 5px 20px rgba(97, 32, 32, 0.1);
+}
