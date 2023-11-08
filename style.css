@@ -1,4 +1,4 @@
-html{margin: 0; padding: 0; height: 100%;}
+html{margin: 0; padding: 10%; height: 100%;}
     body {
         background-color: whitesmoke;        
         
@@ -95,6 +95,7 @@ section {
     background-color: white;
     border-bottom: 1px solid white;
     box-shadow: 0 5px 20px rgba(97, 32, 32, 0.1);
+    
 }
 
 
