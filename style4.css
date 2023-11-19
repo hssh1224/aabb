@@ -1,12 +1,11 @@
-html{margin: 0; padding: 10%; height: 100%;}
+html{margin: 0; padding: 0; height: 100%;}
     body {
-        background-color: whitesmoke;        
+        background-color: whitesmoke;
+        
+        
+        
         
 }
-h1{
-    font: italic bold 40px consolas, sans-serif;
-}
-
 
 button {
     margin: 20px;
@@ -23,6 +22,7 @@ button {
     font-weight: 600;
     transition: 0.25s;
 }
+
 
 .w-btn-outline {
     position: relative;
@@ -68,8 +68,9 @@ button {
 }
 
 .w-btn-yellow {
-    background-color: rosybrown;
-    color: white
+        background-color: white;
+        color: #6e6e6e;
+    
 }
 
 .w-btn:hover {
@@ -91,6 +92,77 @@ button {
 .w-btn-outline:active {
     transform: scale(1.5);
 }
+
+.login-form{
+    
+    border-radius: 9px;
+    width: 300px;
+    background-color: oldlace;
+    padding:20px;
+    margin : 50px auto;
+    border-color: black;
+}
+.text-field{
+    font-size: 14px;
+    padding : 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border : none;
+    width : 100%;
+    box-sizing: border-box;
+}
+.ab{
+    font-size: 14px;
+    padding : 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border : none;
+    
+    box-sizing: border-box;
+}
+
+
+
+.links {
+    text-align: center;
+    margin:30px;
+}
+
+.submit-btn {
+    
+    margin-top: 20px;
+    font-size : 14px;
+    color : black;
+    padding : 10px;
+    border-radius: 5px;
+    background-color: white;
+    border : none;
+    width : 100%;
+
+}
+.submit-btn1 {
+    
+    margin-top: 20px;
+    font-size : 14px;
+    color : white;
+    padding : 10px;
+    border-radius: 5px;
+    background-color: yellowgreen;
+    border : none;
+    width : 100%;
+
+}
+.submit-btn:hover {
+    
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.submit-btn1:hover{
+    cursor: pointer;
+    background-color: skyblue;
+    color: black;
+}
+
 section {
     
     margin-bottom: 10px;
@@ -98,7 +170,20 @@ section {
     background-color: white;
     border-bottom: 1px solid white;
     box-shadow: 0 5px 20px rgba(97, 32, 32, 0.1);
-    
 }
 
+h1{
+    font: italic bold 40px consolas, sans-serif;
+}
+#신용카드{
+    background-color:  rosybrown;
+        color: whitesmoke;
 
+}
+#간편결제{
+    background-color:  lavender;
+        color: black;
+
+}
+ 
+ 

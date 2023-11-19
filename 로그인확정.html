@@ -19,24 +19,52 @@
 
 <body>
    
-    <header><h1><center>bakery</center></h1> </header>
+    <header><h1><center>Bakery</center></h1> </header>
     <section><center> 
     <button class="w-btn w-btn-indigo" onclick="location.href='메뉴.html'"> 
-    메뉴</button> 
+    메뉴보기</button> 
     
     <type="button">
     <button class="w-btn w-btn-brown" onclick="location.href='index.html'">
     로그아웃
     </button>
-    <button class="w-btn w-btn-green" onclick="location.href='index1.html'">
+    
     <type="button">
-    수업내용
-    </button>
+    <button class="w-btn w-btn-yellow" onclick="location.href='건의사항.html'"> 
+    건의사항</button>
     
     
     
-    </center></section>
-    <nav>
+    
+    </center>
+    
+
+</section>
+<nav>
+<center><h2 id="clock" style="color:black;">clock</h2>
+    <script>
+        var Target = document.getElementById("clock");
+        function clock() {
+            var time = new Date();
+
+            var month = time.getMonth();
+            var date = time.getDate();
+            var day = time.getDay();
+            var week = ['일', '월', '화', '수', '목', '금', '토'];
+
+            var hours = time.getHours();
+            var minutes = time.getMinutes();
+            var seconds = time.getSeconds();
+
+            Target.innerText = 
+            `${month + 1}월 ${date}일 ${week[day]}요일 ` +
+            `${hours < 10 ? `0${hours}` : hours}:${minutes < 10 ? `0${minutes}` : minutes}:${seconds < 10 ? `0${seconds}` : seconds}`;
+                
+        }
+        clock();
+        setInterval(clock, 1000); 
+    </script>
+    
 
     </nav>
 </body>

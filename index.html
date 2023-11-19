@@ -14,12 +14,27 @@
 
     
 </style>
+<script>
+
+    function timer()
+    {
+     setTimeout("alertFunction()", 5000); // 5000 이 5초 입니다. 1000 이면 1초.
+    }
+    
+    function alertFunction()
+    {
+     alert('메뉴보기 버튼을 누르시면 됩니다.!');
+    }
+    </script>
+    <body onload="timer()">
+       
+
 
 
 
 <body>
    
-    <header><h1><center>bakery</center></h1> </header>
+    <header><h1><center>Bakery</center></h1> </header>
     <section><center> 
     <button class="w-btn w-btn-indigo" onclick="location.href='메뉴메인.html'"> 
     메뉴보기</button> 
@@ -59,7 +74,7 @@
                 
         }
         clock();
-        setInterval(clock, 1000); // 1초마다 실행
+        setInterval(clock, 1000); 
     </script>
     베이커리에 어서오세요!</center>
 </body>

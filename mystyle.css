@@ -14,3 +14,6 @@ section {
     border-bottom: 1px solid white;
     box-shadow: 0 5px 20px rgba(97, 32, 32, 0.1);
 }
+h1{
+    font: italic bold 40px consolas, sans-serif;
+}

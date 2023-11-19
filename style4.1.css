@@ -94,12 +94,13 @@ button {
 }
 
 .login-form{
-   
-    border-radius: 5px;
+    
+    border-radius: 9px;
     width: 300px;
-    background-color: #eeeff1;
+    background-color: oldlace;
     padding:20px;
     margin : 50px auto;
+    border-color: black;
 }
 .text-field{
     font-size: 14px;
@@ -108,6 +109,15 @@ button {
     border-radius: 5px;
     border : none;
     width : 100%;
+    box-sizing: border-box;
+}
+.ab{
+    font-size: 14px;
+    padding : 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border : none;
+    
     box-sizing: border-box;
 }
 
@@ -137,7 +147,7 @@ button {
     color : white;
     padding : 10px;
     border-radius: 5px;
-    background-color: rgb(141, 143, 134);
+    background-color: yellowgreen;
     border : none;
     width : 100%;
 
@@ -149,14 +159,8 @@ button {
 }
 .submit-btn1:hover{
     cursor: pointer;
-    background-color: rgb(224, 219, 219);
+    background-color: skyblue;
     color: black;
-}
-.phone{
-    display: flex;
-    justify-content: space-between;
-    line-height: 30px;
-    width: 100%;
 }
 
 section {
@@ -167,6 +171,47 @@ section {
     border-bottom: 1px solid white;
     box-shadow: 0 5px 20px rgba(97, 32, 32, 0.1);
 }
+
 h1{
     font: italic bold 40px consolas, sans-serif;
 }
+
+ #확인{
+        background-color: white;
+        color: black;
+    }
+    #네이버{
+        -webkit-text-stroke-color: green;
+        -webkit-text-stroke-width: 1px;
+        color: green; 
+    }
+    #카카오페이{
+        -webkit-text-stroke-color: yellowgreen;
+        -webkit-text-stroke-width: 1px;
+        color: yellow; 
+           
+    }
+    #페이코{
+        -webkit-text-stroke-color: red;
+        -webkit-text-stroke-width: 1px;
+        color: red; 
+           
+    }
+    #토스{
+        -webkit-text-stroke-color: royalblue;
+        -webkit-text-stroke-width: 1px;
+        color: royalblue; 
+           
+    }
+#신용카드{
+    background-color:  rosybrown;
+        color: whitesmoke;
+
+}
+#간편결제{
+    background-color:  lavender;
+        color: black;
+
+}
+
+    

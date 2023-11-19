@@ -3,6 +3,9 @@ html{margin: 0; padding: 10%; height: 100%;}
         background-color: whitesmoke;        
         
 }
+h1{
+    font: italic bold 40px consolas, sans-serif;
+}
 
 
 button {
@@ -65,8 +68,8 @@ button {
 }
 
 .w-btn-yellow {
-    background-color: white;
-    color: #6e6e6e;
+    background-color: rosybrown;
+    color: white;
 }
 
 .w-btn:hover {
