@@ -80,8 +80,8 @@ button {
 }
 
 .w-btn-yellow {
-    background-color: rosybrown;
-    color: white;
+    background-color: white;
+        color: #6e6e6e;
 }
 
 .w-btn:hover {
