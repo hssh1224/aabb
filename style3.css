@@ -175,4 +175,13 @@ select{
     margin-left: 100px;
     
 }
+#total{
+    margin-left: 200px;
+    text-align: center;
+
+}
+#t{
+    text-align: center;
+    margin-right: 30px;
+}
 
