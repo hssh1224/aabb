@@ -171,5 +171,19 @@ h1{
     font: italic bold 40px consolas, sans-serif;
 }
 
+.move_to_left {
+    -webkit-animation-name: animation_move;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-fill-mode: both
+}
 
+@-webkit-keyframes animation_move {
+    0% {
+        -webkit-transform: translateX(0px) translateY(100px) scale(1);
+    }
 
+    100% {
+        -webkit-transform: translateX(1500px) translateY(100px) scale(1);
+    }
+}
