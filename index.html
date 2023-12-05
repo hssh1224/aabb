@@ -16,15 +16,8 @@
 </style>
 <script>
 
-    function timer()
-    {
-     setTimeout("alertFunction()", 5000); // 5000 이 5초 입니다. 1000 이면 1초.
-    }
+ 
     
-    function alertFunction()
-    {
-     alert('메뉴보기 버튼을 누르시면 됩니다.!');
-    }
     </script>
     <body onload="timer()">
        
@@ -36,8 +29,12 @@
    
     <header><h1><center>Bakery</center></h1> </header>
     <section><center> 
-    <button class="w-btn w-btn-indigo" onclick="location.href='메뉴메인.html'"> 
-    메뉴보기</button> 
+    <button class="w-btn w-btn-indigo" onclick="location.href='주문하기.html'"> 
+    메뉴/주문하기</button> 
+    <a href="javascript:alert('아직 주문하지 않았습니다!')">
+    <button class="w-btn w-btn-bl" onclick="location.href='index.html'" > 
+        배송현황</button></a>
+   
     <type="button">
     <button class="w-btn w-btn-yellow" onclick="location.href='로그인.html'"> 
     로그인</button> 
@@ -49,6 +46,9 @@
     <button class="w-btn w-btn-abc" onclick="location.href='건의사항.html'">
     건의사항
     </button>
+    <type="button">
+    <button class="w-btn w-btn-al" onclick="location.href='리뷰쓰기.html'"> 
+    리뷰쓰기</button> 
     <button class="w-btn w-btn-green" onclick="location.href='index1.html'">
     <type="button">
     수업내용
