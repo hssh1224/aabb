@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배송
+    </title>
+    <link rel="stylesheet" href="style copy2.3.css">
+</head>
+<style>
+    
+
+
+    
+</style>
+
+
+
+<body onload="drawImage()">
+   
+    <header><h1><center>Bakery</center></h1> </header>
+    <section><center> 
+    <button class="w-btn w-btn-yellow" onclick="location.href='주문후페이지.html'"> 
+        Bakery</button> 
+    
+    
+    
+    
+    
+    </section>
+    <center><nav>
+    <P><mark>리뷰 메뉴</mark></P>
+
+    <select id="fruits" onchange="drawImage()">
+        <option value="img/소보루빵.jpg" >소보루빵</option>
+        <option value="img/소시지빵.jpg">소시지빵</option>
+        <option value="img/소금빵.jpg">소금빵</option>
+
+    </select>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+
+
+    <script>
+        function drawImage(){
+            let sel = document.getElementById("fruits");
+            let img = document.getElementById("fruitimage");
+            img.src=sel.options[sel.selectedIndex].value;
+        }
+    </script>
+    <div class="a">
+     <img id="fruitimage" src="img/apple.jpg "alt="빵" height="400"> 
+      </div>
+      <table border="1">
+        <thead>
+        <tr>
+           
+            <th id="as">작성자</th>
+            <th id="op"><input type="text" size="40"></th>
+
+            
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="3"><textarea id="t" placeholder="리뷰를 남겨 주세요"
+                
+ " class="sc-1wpxynf-1 jOGUyo"></textarea></td>
+           
+            
+        </tr>
+        <tr>
+            <td colspan="3" id="abcd"><p id="토스"><input type="radio"> 문자
+                <input type="radio"> 문의내역
+                <input type="radio"> 전화
+                <input type="radio"> 답변 불필요
+                <a href="javascript:alert('등록되었습니다!')">
+                <input type="submit" value="등록하기" id="등록하기" onclick="location.href='index.html'"></a>
+            
+
+            </p>
+                
+            
+            </td>
+        </tr>
+    </tbody>
+
+    </table>
+
+
+</nav>
+</center>
+        
+    
+    </body>
+    </html>
+    
+    
+</body>
+
+</html>
+    
+        
+
+</body>
+
+
+</html>

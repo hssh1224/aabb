@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>베이커리
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    
+
+
+    
+</style>
+<script>
+
+   
+    </script>
+    
+       
+
+
+
+
+<body>
+   
+    <header><h1><center>Bakery</center></h1> </header>
+    <section><center> 
+    <button class="w-btn w-btn-indigo" onclick="location.href='주문하기.html'"> 
+    메뉴/주문하기</button> 
+    <button class="w-btn w-btn-bl" onclick="location.href='배송.html'"> 
+        배송현황</button> 
+   
+    <type="button">
+    <button class="w-btn w-btn-yellow" onclick="location.href='로그인.html'"> 
+    로그인</button> 
+    <type="button">
+    <button class="w-btn w-btn-brown" onclick="location.href='회원가입.html'">
+    회원가입
+    </button>
+    <type="button">
+    <button class="w-btn w-btn-abc" onclick="location.href='건의사항.html'">
+    건의사항
+    </button>
+    <type="button">
+    <button class="w-btn w-btn-al" onclick="location.href='리뷰쓰기.html'"> 
+    리뷰쓰기</button> 
+    <button class="w-btn w-btn-green" onclick="location.href='index1.html'">
+    <type="button">
+    수업내용
+    </button>
+    
+    
+    
+    
+    </section></center>
+<center><h2 id="clock" style="color:black;">clock</h2>
+    <script>
+        var Target = document.getElementById("clock");
+        function clock() {
+            var time = new Date();
+
+            var month = time.getMonth();
+            var date = time.getDate();
+            var day = time.getDay();
+            var week = ['일', '월', '화', '수', '목', '금', '토'];
+
+            var hours = time.getHours();
+            var minutes = time.getMinutes();
+            var seconds = time.getSeconds();
+
+            Target.innerText = 
+            `${month + 1}월 ${date}일 ${week[day]}요일 ` +
+            `${hours < 10 ? `0${hours}` : hours}:${minutes < 10 ? `0${minutes}` : minutes}:${seconds < 10 ? `0${seconds}` : seconds}`;
+                
+        }
+        clock();
+        setInterval(clock, 1000); 
+    </script>
+    베이커리에 어서오세요!</center>
+</body>
+
+
+</html>
