@@ -302,6 +302,55 @@ value="2900">
             value="3000">
         
         </div>
+        <div class="a">
+            <img src="img/햄치즈토스트.jpg" alt="햄치즈" height="200">
+            <h4><label for="price1">햄치즈토스트</label></h4> 
+            가격: 3000원
+             <input type="checkbox" name="price24" id="price24" 
+            value="3000">
+        
+        </div>
+        <div class="a">
+            <img src="img/효모빵.jpg" alt="효모빵" height="200">
+            <h4><label for="price1">효모빵</label></h4> 
+            가격: 3500원
+             <input type="checkbox" name="price25" id="price25" 
+            value="3500">
+        
+        </div>
+        <div class="a">
+            <img src="img/연유브레드.jpg" alt="연유" height="200">
+            <h4><label for="price1">연유브레드</label></h4> 
+            가격: 4600원
+             <input type="checkbox" name="price26" id="price26" 
+            value="4600">
+        
+        </div>
+        <div class="a">
+            <img src="img/땅콩크림빵.jpg" alt="땅콩" height="200">
+            <h4><label for="price1">땅콩크림빵</label></h4> 
+            가격: 1500원
+             <input type="checkbox" name="price27" id="price27" 
+            value="1500">
+        
+        </div>
+        <div class="a">
+            <img src="img/베이글.jpg" alt="베이글" height="200">
+            <h4><label for="price1">베이글</label></h4> 
+            가격: 4000원
+             <input type="checkbox" name="price28" id="price28" 
+            value="4000">
+        
+        </div>
+        <div class="a">
+            <img src="img/커피번.png" alt="커피번" height="200">
+            <h4><label for="price1">커피번</label></h4> 
+            가격: 4500원
+             <input type="checkbox" name="price29" id="price29" 
+            value="4500">
+        
+        </div>
+        
         
         
         
@@ -323,7 +372,7 @@ value="2900">
     function Calculator(){
         let total = Number(document.getElementById("total").defaultValue);
 
-        for(let i=1; i<=23; i++){
+        for(let i=1; i<=30; i++){
             let chkbox = document.getElementById("price"+i);
             if(chkbox.checked){
                 total += Number(chkbox.value);
@@ -333,7 +382,7 @@ value="2900">
         }
 
     }
-    for(let i = 1; i <= 23; i++){
+    for(let i = 1; i <= 30; i++){
             let check = document.getElementById("price"+i);
             check.onclick = Calculator;
         }
