@@ -99,7 +99,7 @@ button {
     border-radius: 9px;
     width: 300px;
     background-color: oldlace;
-    padding:20px; color:black;
+    padding:20px; 
     margin : 50px auto;
     border-color: black;
 }
@@ -206,7 +206,7 @@ h1{
     }
 #신용카드{
     background-color:  rosybrown;
-        color: whitesmoke;
+        color: white;
 
 }
 #간편결제{
